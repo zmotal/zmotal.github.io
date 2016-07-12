@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zmotal.com/"/>
-  <updated>2016-07-05T13:56:50.643Z</updated>
+  <updated>2016-07-12T15:22:24.303Z</updated>
   <id>http://zmotal.com/</id>
   
   <author>
@@ -16,48 +16,154 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的第一篇博客</title>
-    <link href="http://zmotal.com/2016/07/05/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://zmotal.com/2016/07/05/我的第一篇博客/</id>
-    <published>2016-07-05T13:54:31.000Z</published>
-    <updated>2016-07-05T13:56:50.643Z</updated>
+    <title>真手把手教你用GitHub和Hexo搭建个人博客</title>
+    <link href="http://zmotal.com/2016/07/12/%E7%9C%9F%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8GitHub%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://zmotal.com/2016/07/12/真手把手教你用GitHub和Hexo搭建个人博客/</id>
+    <published>2016-07-12T14:52:40.000Z</published>
+    <updated>2016-07-12T15:22:24.303Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;p&gt;搞网站十几年了,免费确实意味着不稳定和丢数据&lt;br&gt;如果只是抱着学习的念头搞博客&lt;br&gt;本机XAMPP+wordpress 应该是技术门槛和成本最低的,速度也最快&lt;br&gt;缺点就是只能自己玩,可能没人互动加上兴致过去了就放弃了&lt;/p&gt;
-&lt;p&gt;付费的话可以搞个每年50块钱左右的.com 或个性点一百左右的me啥的域名&lt;br&gt;空间我这里确实有,也确实稳定,不过价格不算很入门要168,有个用户技术交流群,可以给你学习指明方向,不过能 Google 的就不要提问了,学会学习的能力&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;p&gt;Github+jekyll略显geek&lt;br&gt;你需要去看pro git这个git的入门教程和一些jekyll的使用教程&lt;br&gt;当然还要看markdown的语法教程&lt;br&gt;如果抱着学习的念头,是可以学到好多东西&lt;br&gt;而且 github支持绑定域名,这样子你可以先买域名,玩github,等懒得折腾了整个收费空间专注写内容&lt;br&gt;有个统一域名的好处就是空间随便换,域名即入口,不会让你的用户断掉联系&lt;/p&gt;
-&lt;p&gt;域名一定要国外的买,例如 godaddy 或name&lt;br&gt;千万不能买cn域名&lt;br&gt;空间国内的必须备案,国外的不能备案&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;1-购买域名&quot;&gt;&lt;a href=&quot;#1-购买域名&quot; class=&quot;headerlink&quot; title=&quot;1. 购买域名&quot;&gt;&lt;/a&gt;1. 购买域名&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;上&lt;a href=&quot;https://ca.godaddy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;godaddy&lt;/a&gt;购买域名，可用支付宝，简单方便&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/1.jpg&quot; alt=&quot;购买域名&quot;&gt;&lt;/p&gt;
+&lt;p&gt;搜索域名&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/3.JPG&quot; alt=&quot;搜索域名&quot;&gt;&lt;/p&gt;
+&lt;p&gt;选择域名，最便宜的几块钱，.com后缀也就五十左右&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/4.jpg&quot; alt=&quot;选择域名&quot;&gt;&lt;/p&gt;
+&lt;p&gt;选中后进入购物车，各种服务什么的忽略就行&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/5-1.jpg&quot; alt=&quot;购物车&quot;&gt;&lt;/p&gt;
+&lt;p&gt;新用户点击继续就行，老用户就不用说了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/5.JPG&quot; alt=&quot;继续&quot;&gt;&lt;/p&gt;
+&lt;p&gt;用支付宝支付也不用多说了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/5-0.jpg&quot; alt=&quot;支付宝&quot;&gt;&lt;/p&gt;
+&lt;p&gt;验证完邮箱地址后就可以进入账号查看到所购买的域名（只有在验证邮箱之后才能激活域名）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/6.jpg&quot; alt=&quot;验证&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-注册GitHub账号&quot;&gt;&lt;a href=&quot;#2-注册GitHub账号&quot; class=&quot;headerlink&quot; title=&quot;2. 注册GitHub账号&quot;&gt;&lt;/a&gt;2. 注册GitHub账号&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;进入&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;官网&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/7.JPG&quot; alt=&quot;官网&quot;&gt;&lt;/p&gt;
+&lt;p&gt;按照提示进入下一步&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/8.jpg&quot; alt=&quot;下一步&quot;&gt;&lt;/p&gt;
+&lt;p&gt;填写相关信息&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/9.jpg&quot; alt=&quot;填写&quot;&gt;&lt;/p&gt;
+&lt;p&gt;激活邮箱之后就能在github中新建项目了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/10.jpg&quot; alt=&quot;新建&quot;&gt;&lt;/p&gt;
+&lt;p&gt;新建一个repository, 命名为你的【用户名 + github.io】。例如用户名为wuyisi，所以 repository 命名为 【wuyisi.github.io】&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/11.jpg&quot; alt=&quot;新建R&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-安装Node和Git&quot;&gt;&lt;a href=&quot;#3-安装Node和Git&quot; class=&quot;headerlink&quot; title=&quot;3. 安装Node和Git&quot;&gt;&lt;/a&gt;3. 安装Node和Git&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;官网&lt;a href=&quot;https://nodejs.org/en&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;，版本随便选择一个即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/12.jpg&quot; alt=&quot;node&quot;&gt;&lt;/p&gt;
+&lt;p&gt;官网&lt;a href=&quot;https://git-scm.com/downloads&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/13.JPG&quot; alt=&quot;node&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果发现官网下载不了就直接百度下载吧&lt;/p&gt;
+&lt;h2 id=&quot;4-配置GitHub的SSH-key&quot;&gt;&lt;a href=&quot;#4-配置GitHub的SSH-key&quot; class=&quot;headerlink&quot; title=&quot;4. 配置GitHub的SSH key&quot;&gt;&lt;/a&gt;4. 配置GitHub的SSH key&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;主要参考：&lt;a href=&quot;http://blog.csdn.net/binyao02123202/article/details/20130891&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/binyao02123202/article/details/20130891&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;鼠标右击，进入git bash&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/14.jpg&quot; alt=&quot;git&quot;&gt;&lt;/p&gt;
+&lt;p&gt;输入命令检查SSH key是否存在，即是否已经存在 id_rsa.pub 或 id_dsa.pub 文件&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; ~/.ssh&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ ls&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;创建一个SSH key&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ ssh-keygen -t rsa -C &lt;span class=&quot;string&quot;&gt;&quot;your_email@example.com&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;【your_email@example.com】注意替换为你的邮箱&lt;/p&gt;
+&lt;p&gt;运行上面那条命令后会让你输入一个文件名，用于保存刚才生成的 SSH key 代码，如：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Generating public/private rsa key pair.  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Enter file &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;which&lt;/span&gt; to save the key (/c/Users/you/.ssh/id_rsa): [Press enter]&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;当然，你也可以不输入文件名，使用默认文件名（推荐），那么就会生成 id_rsa 和 id_rsa.pub 两个秘钥文件。&lt;/p&gt;
+&lt;p&gt;接着又会提示你输入两次密码（该密码是你push文件的时候要输入的密码，而不是github管理者的密码），当然，你也可以不输入密码，直接按回车。那么push的时候就不需要输入密码，直接提交到github上了，如：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Enter passphrase (empty &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; no passphrase):   &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Enter same passphrase again:&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;接下来，就会显示如下代码提示，如：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Your identification has been saved &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; /c/Users/you/.ssh/id_rsa.  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Your public key has been saved &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; /c/Users/you/.ssh/id_rsa.pub.  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;The key fingerprint is:  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your_email@example.com&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;当你看到上面这段代码那就说明，你的 SSH key 已经创建成功，你只需要添加到GitHub的SSH key上就可以了。&lt;/p&gt;
+&lt;p&gt;接下来拷贝 id_rsa.pub 文件的内容【C:\Documents and Settings\Administrator.ssh\id_rsa.pub】，可以用编辑器打开文件复制，也可以用git命令复制该文件的内容，如：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ clip &amp;lt; ~/.ssh/id_rsa.pub&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;登录GitHub账号，点击右上角头像那的设置（ Settings ）进入，然后点击菜单栏的 SSH key 进入页面添加 SSH key。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/16.jpg&quot; alt=&quot;shhs&quot;&gt;&lt;/p&gt;
+&lt;p&gt;把复制的 SSH key 代码粘贴到 key 所对应的输入框中，记得 SSH key 代码的前后不要留有空格或者回车。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/17.jpg&quot; alt=&quot;shh&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在git Bash 中输入以下代码&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ ssh -T git@github.com&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;输入以上代码时，可能会有一段警告代码，如：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;The authenticity of host &lt;span class=&quot;string&quot;&gt;&#39;github.com (207.97.227.239)&#39;&lt;/span&gt; can&lt;span class=&quot;string&quot;&gt;&#39;t be established.&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Are you sure you want to continue connecting (yes/no)?&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这是正常的，输入 yes 回车既可。如果你创建 SSH key 的时候设置了密码，接下来就会提示你输入密码，如：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Enter passphrase &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; key &lt;span class=&quot;string&quot;&gt;&#39;/c/Users/Administrator/.ssh/id_rsa&#39;&lt;/span&gt;:&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;密码正确后你会看到下面这段话，如：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;Hi username! You&lt;span class=&quot;string&quot;&gt;&#39;ve successfully authenticated, but GitHub does notprovide shell access.&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;5-安装Hexo&quot;&gt;&lt;a href=&quot;#5-安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;5. 安装Hexo&quot;&gt;&lt;/a&gt;5. 安装Hexo&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;打开Git Base，执行如下命令：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ npm install -g hexo&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在电脑上新建一个文件夹，随意起个名字，比如E:\blog&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/18.jpg&quot; alt=&quot;hexo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后右键此文件夹打开Git Base，执行如下命令:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo init&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/19.jpg&quot; alt=&quot;创建&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/20.jpg&quot; alt=&quot;创建1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这就代表Hexo安装成功 ^_^&lt;/p&gt;
+&lt;p&gt;接着继续输入如下命令（直接全部复制粘贴即可），用来安装Hexo 插件：自动生成sitemap，Rss，部署到git等。&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-generator-index --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-generator-archive --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-generator-category --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-generator-tag --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-server --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-deployer-git --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-deployer-heroku --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-deployer-rsync --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-deployer-openshift --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-renderer-marked@0.2 --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-renderer-stylus@0.2 --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-generator-feed@1 --save&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-generator-sitemap@1 –save&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/21.JPG&quot; alt=&quot;创建2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;现在我们已经搭建起本地的hexo博客了，执行以下命令(在    E:\blog):&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo g  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo s&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/22.JPG&quot; alt=&quot;创建3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/23.JPG&quot; alt=&quot;创建4&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hexo g：生成静态站点文件&lt;/li&gt;
+&lt;li&gt;hexo s：运行服务器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后到浏览器输入 &lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt; 就能看见默认模式的博客了，按 Ctrl+C可停止浏览。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/24.JPG&quot; alt=&quot;浏览&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;6-应用Hexo主题&quot;&gt;&lt;a href=&quot;#6-应用Hexo主题&quot; class=&quot;headerlink&quot; title=&quot;6. 应用Hexo主题&quot;&gt;&lt;/a&gt;6. 应用Hexo主题&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Hexo有很多漂亮的主题可以运用，百度一下有很多的主题，现在随意搜索一个主题做示范。&lt;/p&gt;
+&lt;p&gt;知乎链接： &lt;a href=&quot;https://www.zhihu.com/question/24422335&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/24422335&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;不得不说把知乎当搜索使用是相当好用，感谢各位博主贡献。  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/25.JPG&quot; alt=&quot;知乎&quot;&gt;&lt;/p&gt;
+&lt;p&gt;进入其GitHub，复制地址。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/26.jpg&quot; alt=&quot;知乎1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;输入命令（在E:\blog）:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/litten/hexo-theme-yilia.git themes/lu&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/27.JPG&quot; alt=&quot;github&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这里的【 &lt;a href=&quot;https://github.com/litten/hexo-theme-yilia.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/litten/hexo-theme-yilia.git&lt;/a&gt; 】为复制的github地址，【themes/lu】为主题保存的地址，名字可以任意取。&lt;/p&gt;
+&lt;p&gt;之后就能在【E:\blog\themes】下找到下载的主题了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/28.JPG&quot; alt=&quot;主题&quot;&gt;&lt;/p&gt;
+&lt;p&gt;找到【E:\blog\ _config.yml】这个文件，可用记事本或编辑器打开，修改config.yml配置文件中的theme属性，将其修改为lu。&lt;br&gt;&lt;strong&gt;注意：冒号后边有一个空格，再写的lu&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/29.JPG&quot; alt=&quot;注意&quot;&gt;&lt;/p&gt;
+&lt;p&gt;继续修改博客名称等属性&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/29-1.JPG&quot; alt=&quot;修改&quot;&gt;&lt;/p&gt;
+&lt;p&gt;想要对主题有更加细致的改写，可移步下一篇博客。&lt;/p&gt;
+&lt;p&gt;输入如下命令创建博文：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo new [layout] &lt;span class=&quot;string&quot;&gt;&quot;postName&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/31.JPG&quot; alt=&quot;创建&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在【E:\blog\source\ _posts】下找到刚刚创建的博文进行书写。  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/32.JPG&quot; alt=&quot;建博&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Hexo搭建下的博文是使用markdown书写，不了解的话可以百度一下，也可以直接直接点击下面的链接了解基本语法：&lt;br&gt;&lt;a href=&quot;http://www.jianshu.com/p/1e402922ee32/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/1e402922ee32/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;找到【E:\blog\themes\lu\ _config.yml】这个文件，修改config.yml配置文件中的avatar属性，即修改博客中的头像。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/33.JPG&quot; alt=&quot;头像&quot;&gt;&lt;/p&gt;
+&lt;p&gt;输入以下命令使用这个主题：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo g  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo s&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在浏览器输入 &lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt; 可进行预览。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/34.JPG&quot; alt=&quot;浏览&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;7-将博客部署到GitHub&quot;&gt;&lt;a href=&quot;#7-将博客部署到GitHub&quot; class=&quot;headerlink&quot; title=&quot;7. 将博客部署到GitHub&quot;&gt;&lt;/a&gt;7. 将博客部署到GitHub&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;修改【E:\blog\ _config.yml】这个文件，在_config.yml最下方，修改deploy属性(命令中的第一个wuyisi为Github的用户名,第二个wuyisi为之前N新建的Repository的名字,记得改成自己的。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;deploy: &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt;: git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  repository: https://github.com/wuyisi/wuyisi.github.io.git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  branch: master&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/35.JPG&quot; alt=&quot;改变&quot;&gt;&lt;/p&gt;
+&lt;p&gt;输入以下命令将博客部署到GitHub（在E:\blog）：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo d&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/36.JPG&quot; alt=&quot;查看&quot;&gt;&lt;/p&gt;
+&lt;p&gt;中间会出现弹窗，依次输入github用户名和密码即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/37.JPG&quot; alt=&quot;弹窗&quot;&gt;&lt;/p&gt;
+&lt;p&gt;稍等片刻看见这个界面就代表部署成功。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/38.JPG&quot; alt=&quot;成功&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接下来进入GitHub就能查看到部署博客的文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/39.JPG&quot; alt=&quot;成功&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击setting&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/40.jpg&quot; alt=&quot;点击&quot;&gt;&lt;/p&gt;
+&lt;p&gt;下拉进入&lt;a href=&quot;https://你的名字.github.io/就可以看见部署在GitHub的博客。&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://你的名字.github.io/就可以看见部署在GitHub的博客。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/41.jpg&quot; alt=&quot;进入&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;8-将独立域名与GitHub-Pages的空间绑定&quot;&gt;&lt;a href=&quot;#8-将独立域名与GitHub-Pages的空间绑定&quot; class=&quot;headerlink&quot; title=&quot;8. 将独立域名与GitHub Pages的空间绑定&quot;&gt;&lt;/a&gt;8. 将独立域名与GitHub Pages的空间绑定&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;进入&lt;a href=&quot;https://www.dnspod.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DNSPOD&lt;/a&gt;注册成功后进行域名解析。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/42.jpg&quot; alt=&quot;解析&quot;&gt;&lt;/p&gt;
+&lt;p&gt;输入需要解析的域名&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/43.jpg&quot; alt=&quot;输入&quot;&gt;&lt;/p&gt;
+&lt;p&gt;添加两条域名，A的两条记录指向的ip地址是GitHub Pages的提供的ip。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;192.30.252.153&lt;/li&gt;
+&lt;li&gt;192.30.252.154&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/44.jpg&quot; alt=&quot;输入&quot;&gt;&lt;/p&gt;
+&lt;p&gt;进入GitHub新建文件CNAME&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/45.jpg&quot; alt=&quot;输入&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在CNAME下写入域名&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/46.jpg&quot; alt=&quot;输入&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击setting下拉出现以下界面就代表博客搭建成功&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/47.JPG&quot; alt=&quot;输入&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击进入就能看到查看构建成功的博客&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/48.JPG&quot; alt=&quot;输入&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;[1]. &lt;a href=&quot;http://www.jianshu.com/p/05289a4bc8b2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/05289a4bc8b2/&lt;/a&gt;&lt;br&gt;[2]. &lt;a href=&quot;http://www.jianshu.com/notebooks/3350927/latest&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/notebooks/3350927/latest&lt;/a&gt;&lt;br&gt;[3]. &lt;a href=&quot;http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html&lt;/a&gt;&lt;br&gt;[4]. &lt;a href=&quot;http://blog.csdn.net/binyao02123202/article/details/20130891&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/binyao02123202/article/details/20130891&lt;/a&gt;&lt;br&gt;[5]. &lt;a href=&quot;http://www.jianshu.com/p/1e402922ee32/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/1e402922ee32/&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;p&gt;搞网站十几年了,免费
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://zmotal.com/2016/07/05/hello-world/"/>
-    <id>http://zmotal.com/2016/07/05/hello-world/</id>
-    <published>2016-07-05T13:13:53.728Z</published>
-    <updated>2016-07-05T13:56:57.704Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo generate&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;h2 id=&quot;1-购买域名&quot;&gt;&lt;a href=&quot;#1-购买域名&quot; class=&quot;headerlink&quot; title=&quot;1. 购买域名&quot;&gt;&lt;/a&gt;1. 购买域名&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;上&lt;a href=&quot;https://ca.godaddy.com/&quot; target=&quot;_bla
     
     </summary>
     
