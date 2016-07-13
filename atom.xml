@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zmotal.com/"/>
-  <updated>2016-07-13T05:41:37.193Z</updated>
+  <updated>2016-07-13T05:57:06.967Z</updated>
   <id>http://zmotal.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://zmotal.com/2016/07/12/%E7%9C%9F%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8GitHub%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://zmotal.com/2016/07/12/真手把手教你用GitHub和Hexo搭建个人博客/</id>
     <published>2016-07-12T14:52:40.000Z</published>
-    <updated>2016-07-13T05:41:37.193Z</updated>
+    <updated>2016-07-13T05:57:06.967Z</updated>
     
     <content type="html">&lt;h2 id=&quot;1-购买域名&quot;&gt;&lt;a href=&quot;#1-购买域名&quot; class=&quot;headerlink&quot; title=&quot;1. 购买域名&quot;&gt;&lt;/a&gt;1. 购买域名&lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;上&lt;a href=&quot;https://ca.godaddy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;godaddy&lt;/a&gt;购买域名，可用支付宝，简单方便&lt;/p&gt;
@@ -118,10 +118,6 @@
 &lt;p&gt;Hexo搭建下的博文是使用markdown书写，不了解的话可以百度一下，也可以直接直接点击下面的链接了解基本语法：&lt;br&gt;&lt;a href=&quot;http://www.jianshu.com/p/1e402922ee32/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/1e402922ee32/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;找到【E:\blog\themes\lu\ _config.yml】这个文件，修改config.yml配置文件中的avatar属性，即修改博客中的头像。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/33.JPG&quot; alt=&quot;头像&quot;&gt;&lt;/p&gt;
-&lt;p&gt;在【E:\blog\source】文件夹下新建文件CNAME&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/51.JPG&quot; alt=&quot;绑定&quot;&gt;&lt;/p&gt;
-&lt;p&gt;写下需要绑定的域名&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/52.JPG&quot; alt=&quot;写下&quot;&gt;&lt;/p&gt;
 &lt;p&gt;输入以下命令使用这个主题：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo g  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo s&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在浏览器输入 &lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt; 可进行预览。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/34.JPG&quot; alt=&quot;浏览&quot;&gt;&lt;/p&gt;
@@ -129,6 +125,10 @@
 &lt;p&gt;修改【E:\blog\ _config.yml】这个文件，在_config.yml最下方，修改deploy属性(命令中的第一个wuyisi为Github的用户名,第二个wuyisi为之前新建的Repository的名字,记得改成自己的。&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;deploy: &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt;: git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  repository: https://github.com/wuyisi/wuyisi.github.io.git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  branch: master&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/35.JPG&quot; alt=&quot;改变&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在【E:\blog\source】文件夹下新建文件CNAME&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/51.JPG&quot; alt=&quot;绑定&quot;&gt;&lt;/p&gt;
+&lt;p&gt;写下需要绑定的域名&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/52.JPG&quot; alt=&quot;写下&quot;&gt;&lt;/p&gt;
 &lt;p&gt;输入以下命令将博客部署到GitHub（在E:\blog）：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo g&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo s&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo d&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/36.JPG&quot; alt=&quot;查看&quot;&gt;&lt;/p&gt;
 &lt;p&gt;中间会出现弹窗，依次输入github用户名和密码即可。&lt;/p&gt;
