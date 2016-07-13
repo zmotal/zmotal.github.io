@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zmotal.com/"/>
-  <updated>2016-07-13T05:02:57.848Z</updated>
+  <updated>2016-07-13T05:41:37.193Z</updated>
   <id>http://zmotal.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://zmotal.com/2016/07/12/%E7%9C%9F%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8GitHub%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://zmotal.com/2016/07/12/真手把手教你用GitHub和Hexo搭建个人博客/</id>
     <published>2016-07-12T14:52:40.000Z</published>
-    <updated>2016-07-13T05:02:57.848Z</updated>
+    <updated>2016-07-13T05:41:37.193Z</updated>
     
     <content type="html">&lt;h2 id=&quot;1-购买域名&quot;&gt;&lt;a href=&quot;#1-购买域名&quot; class=&quot;headerlink&quot; title=&quot;1. 购买域名&quot;&gt;&lt;/a&gt;1. 购买域名&lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;上&lt;a href=&quot;https://ca.godaddy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;godaddy&lt;/a&gt;购买域名，可用支付宝，简单方便&lt;/p&gt;
@@ -121,7 +121,7 @@
 &lt;p&gt;在【E:\blog\source】文件夹下新建文件CNAME&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/51.JPG&quot; alt=&quot;绑定&quot;&gt;&lt;/p&gt;
 &lt;p&gt;写下需要绑定的域名&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/50.JPG&quot; alt=&quot;写下&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/52.JPG&quot; alt=&quot;写下&quot;&gt;&lt;/p&gt;
 &lt;p&gt;输入以下命令使用这个主题：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo g  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo s&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在浏览器输入 &lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/&lt;/a&gt; 可进行预览。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://oa5oj3rtn.bkt.clouddn.com/34.JPG&quot; alt=&quot;浏览&quot;&gt;&lt;/p&gt;
